@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Document</title>
   </head>
 
@@ -28,16 +28,16 @@
     <div class="game-area">
         <!-- Control-Buttons Area-->
       <div class="controls-area">
-        <button class="btn btn--btn btn-green">
+        <button data-type="additon" class="btn btn--big btn--green">
           <i class="fas fa-plus"></i>
         </button>
-        <button class="btn btn--btn btn-blue">
+        <button data-type="subtract" class="btn btn--big btn--blue">
           <i class="fas fa-minus"></i>
         </button>
-        <button class="btn btn--btn btn-yellow">
+        <button data-type="multiply" class="btn btn--big btn--orange">
           <i class="fas fa-times"></i>
         </button>
-        <button class="btn btn--btn btn-pink">
+        <button data-type="division" class="btn btn--big btn--red">
           <i class="fas fa-divide"></i>
         </button>
       </div>
@@ -50,7 +50,7 @@
             <p class="answer-message">Enter Answer:</p>
             <input id="answer-box" type="number" />
         </div>
-        <button class="btn btn--gray" id="submit">Submit</button>
+        <button data-type="submit" class="btn btn--gray" id="submit">Submit</button>
     </div>
     <div class="score-area">
       <p class="scores">Correct Answers <span id="score">0</span></p>
